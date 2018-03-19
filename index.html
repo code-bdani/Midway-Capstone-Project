@@ -14,10 +14,12 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="#!">
-                    <img src="imgs/idfa_logo.png" alt="Ingrid Derrickson Fine Art Logo">
-                </a>
+            <nav class="navbar navbar-light">
+                <div class="container"> <!-- START Container Div; placing this div inside the nav element removes horizontal padding -->
+                    <a class="navbar-brand" href="#!">
+                        <img src="imgs/idfa_logo.png" alt="Ingrid Derrickson Fine Art Logo">
+                    </a>
+                </div> <!-- END Container Div -->
             </nav>
         </header>
 
@@ -31,7 +33,21 @@
                 <a class="nav-link" href="pages/contact.html">Contact</a>
             </nav>
         </div> <!-- END Container Div -->
-        <footer>&copy; 2018</footer>
+
+
+        <footer>
+            <nav class="navbar navbar-light">
+                <div class="container"> <!-- START Container Div -->
+                    <span>&copy; 2018</span>
+                    <a href="https://www.instagram.com/ingridderricksonfineart/" target="_blank">
+                        <img src="imgs/Instagram.png" alt="Link to the artist's Instagram account">
+                    </a>
+                    <a href="https://www.facebook.com/Ingrid-Derrickson-Fine-Art-1145004278858449/" target="_blank">
+                        <img src="imgs/Facebook.png" alt="Link to the artist's Facebook account">
+                    </a>
+                </div> <!-- END Container Div -->
+            </nav>
+        </footer>
 
         <!-- Bootstrap CDN Scripts -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
