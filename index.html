@@ -13,20 +13,79 @@
         <meta name="author" content="Brittany D. Smith">
     </head>
     <body>
+        <div class="container-fluid"> <!-- START Body Container Div -->
+
         <header>
-            <h1>Ingrid Derrickson Fine Art</h1>
+            <nav class="navbar navbar-light">
+                <div class="row"> <!-- START Row 1 Div -->
+                    <div class="col"> <!-- START Col Div -->
+                        <a class="navbar-brand" href="#">
+                            <img src="imgs/idfa_logo.png" alt="Ingrid Derrickson Fine Art Logo">
+                        </a>
+                    </div> <!-- END Col Div -->
+                </div> <!-- END Row 1 Div -->
+            </nav>
         </header>
 
-        <div class="container"> <!-- START Container Div -->
-            <nav class="nav flex-column">
-                <a class="nav-link active" href="#">Gallery</a>
-                <a class="nav-link" href="#">Artist Statement</a>
-                <a class="nav-link" href="#">Bio/CV</a>
-                <a class="nav-link" href="#">Purchase</a>
-                <a class="nav-link" href="#">Contact</a>
+        <div class="row align-items-start"> <!-- START Main Area Row Div -->
+            <div class="col-lg-3"> <!-- START Nav Col Div -->
+                <nav class="nav flex-column">
+                    <div class="container"> <!-- START Nav Container Div -->
+                        <a class="nav-link active" href="pages/gallery.html">gallery</a>
+                        <a class="nav-link" href="pages/artist-statement.html">artist statement</a>
+                        <a class="nav-link" href="pages/bio.html">bio / cv</a>
+                        <a class="nav-link" href="pages/purchase.html">purchase</a>
+                        <a class="nav-link" href="pages/contact.html">contact</a>
+                    </div> <!-- END Nav Container Div -->
+                </nav>
+            </div> <!-- END Nav Col Div -->
+
+            <nav class="navbar flex-column navbar-expand-lg navbar-light bg-light"> <!-- START Nav -->
+                <div class="container"> <!-- START Nav Container Div -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> <!-- START Collapse Div -->
+                        <div class="navbar-nav"> <!-- START Navbar-nav Div -->
+                        <a class="nav-item nav-link" href="pages/gallery.html">gallery <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="pages/artist-statement.html">artist statement</a>
+                        <a class="nav-item nav-link" href="pages/bio.html">bio / cv</a>
+                        <a class="nav-item nav-link" href="pages/contact.html">purchase</a>
+                        <a class="nav-link" href="pages/contact.html">contact</a>
+                        </div> <!-- END Navbar-nav Div -->
+                    </div> <!-- END Collapse Div -->
+                </div> <!-- END Nav Container Div -->
+            </nav> <!-- END Nav -->
+
+            <div class="col-lg-9"> <!-- START Main Col Div -->
+                <main>
+                    <h2>Peinture du jour</h2>
+                    <img src="imgs/IDFA_1.jpg" alt="Painting of the day">
+                </main>
+            </div> <!-- END Main Col Div -->
+        </div> <!-- END Main Area Row Div -->
+
+        <footer>
+            <nav class="navbar navbar-light">
+                <div class="row align-items-start"> <!-- START Footer Row Div -->
+                    <div class="col"> <!-- START Copyright Col Div -->
+                        <span class="navbar-text">&copy; 2018</span>
+                    </div> <!-- END Copyright Col Div -->
+                    <div class="col"> <!-- START Col Div -->
+                        <a href="https://www.instagram.com/ingridderricksonfineart/" target="_blank">
+                            <img src="imgs/Instagram.png" alt="Link to the artist's Instagram account">
+                        </a>
+                    </div> <!-- END Col Div -->
+                    <div class="col"> <!-- START Col Div -->
+                        <a href="https://www.facebook.com/Ingrid-Derrickson-Fine-Art-1145004278858449/" target="_blank">
+                            <img src="imgs/Facebook.png" alt="Link to the artist's Facebook account">
+                        </a>
+                    </div> <!-- END Col Div -->
+                </div> <!-- END Footer Row Div -->
             </nav>
-        </div> <!-- END Container Div -->
-        <footer>&copy; 2018</footer>
+        </footer>
+
+        </div> <!-- END Body Container Div -->
 
         <!-- Bootstrap CDN Scripts -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
