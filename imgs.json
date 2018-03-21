@@ -1,0 +1,61 @@
+{
+"images": [
+    {
+      "img_id": 1,
+      "url": "https://i.imgur.com/oVGJtCW.jpg",
+      "title": "Standing Strong",
+      "Date": "March 20, 2018",
+      "medium": "Oil on paper",
+      "for_sale": "Available for purchase",
+      "price": "$85"
+    }, {
+        "img_id": 2,
+        "url": "https://i.imgur.com/gRyNQ6I.jpg",
+        "title": "Purple Pansy",
+        "Date": "March 19, 2018",
+        "medium": "Oil on prepared paper",
+        "for_sale": "Available for purchase",
+        "price": "$85"
+    }, {
+        "img_id": 3,
+        "url": "https://i.imgur.com/6EipFno.jpg",
+        "title": "Daffodils Blues",
+        "Date": "March 17, 2018",
+        "medium": "Oil on canvas",
+        "for_sale": "Available for purchase",
+        "price": "$85"
+    }, {
+        "img_id": 4,
+        "url": "https://i.imgur.com/xEl8tNl.jpg",
+        "title": "#523",
+        "Date": "March 9, 2018",
+        "medium": "Oil on canvas",
+        "for_sale": "Available for purchase",
+        "price": "$85"
+    }, {
+        "img_id": 5,
+        "url": "https://i.imgur.com/5CgkZWX.jpg",
+        "title": "#508",
+        "Date": "February 22, 2018",
+        "medium": "Oil on canvas",
+        "for_sale": "Available for purchase",
+        "price": "$85"
+    }, {
+      "img_id": 6,
+      "url": "https://i.imgur.com/ABQj6yp.jpg",
+      "title": "#494",
+      "Date": "February 8, 2018",
+      "medium": "Oil on canvas",
+      "for_sale": "Available for purchase",
+      "price": "$85"
+    }, {
+      "img_id": 7,
+      "url": "https://i.imgur.com/IpUsqEY.jpg",
+      "title": "#489",
+      "Date": "February 3, 2018",
+      "medium": "Oil on canvas",
+      "for_sale": "Available for purchase",
+      "price": "$85"
+    }
+  ]
+}
