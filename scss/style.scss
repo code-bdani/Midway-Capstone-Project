@@ -4,9 +4,11 @@
 // Font Variables
 $caveat: 'Caveat', cursive;
 $montserrat: 'Montserrat', sans-serif;
+$body-color: #2D3F3F;
 
 // Styles
 
 body {
     font-family: $montserrat;
+    color: $body-color;
 }
